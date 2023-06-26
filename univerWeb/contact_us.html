@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="style3.css" type="text/css" rel="stylesheet">
+    <title>Countact us</title>
+    <style type="text/css">
+        .container{
+            background-color: #f2f2f2bf;
+            padding: 20px;}
+        
+            input, select,textarea{
+                width: 100%;
+                padding: 5px;
+                border-radius: 5px;
+                background-color: rgb(246, 246, 254);
+            }
+            input[type=submit]{
+                background-color: #ddf0fb;
+                color: black;
+                font-size: 16px;
+                padding: 12px 20px;
+                width: 10%;
+                display: block;
+    margin: 0 auto;
+            }
+            input[type=submit]:hover{background-color:#7d8e97 ;}
+            input:hover{background-color: #ddf0fb;}
+        
+        </style>
+</head>
+
+<body>
+    <h1>CSS<sub>3</sub> Style </h1>
+   <div class = "wrapper">
+    <header>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="course_note.html">Course Note</a></li>
+                <li> <a href="list_of_student.html">List of Students</a></li>
+                <li> <a href="useful_link.html">Useful links</a></li>
+                <li> <a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form>
+         <label for="FirstName">First name:</label>
+            
+        <input type="text" name="firstNmae" size="15" placeholder="Your name..."> 
+            <br/>
+            
+        <label for="lastName">Last name:</label>
+        <input type="text" name="LastNmae" size="15" placeholder="Your Last name.."/>
+              <br/>  
+         <label for="country">Country</label>   
+         <select id="country" name="country"> 
+         <option selected value="KSA" >Saudi Arabia</option>
+          <option value="UK">United Kingdom</option>
+          <option value="USA">USA</option> 
+            
+            </select> 
+                <br/>
+            <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+        <br/>
+        <input type="submit" value="submit">
+            
+            </form>
+                </div>
+    <footer> &copy; 2023 CS314 </footer>
+   </div> 
+</body>
+</html>
